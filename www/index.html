@@ -52,8 +52,10 @@
                         
                         if(position.coords.latitude <= -23.4929000 && position.coords.latitude >= -23.4929999){
                             alert('Você está em casa!');
+                        }else if(position.coords.latitude <= -23.511800 && position.coords.latitude >= -23.512400){
+                            alert('Você está na Ezconet!');
                         }else{
-                            alert('Fora de casa!');
+                            alert('Sei la onde você está!!');
                         }
                     };
                     function onError(error) {
